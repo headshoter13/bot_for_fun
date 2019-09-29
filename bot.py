@@ -18,6 +18,8 @@ def text_handler(message):
 		bot.send_message(chat_id, '"Здравствуйте" нужно говорить.')
 	elif text == "как дела?":
 		bot.send_message(chat_id, 'Пока не родила!')
+	elif text == "доброе утро":
+		bot.send_message(chat_id, 'Хуютро')
 	else:
 		bot.send_message(chat_id, 'Простите, я вас не поняла, но на всякий случай, Идите Нахуй!')
 
