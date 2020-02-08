@@ -1,13 +1,17 @@
 import telebot
 
-TOKEN = ""
+TOKEN = "919944593:AAEUsptIALtikuljlGV47xzXXMCsuhXa8Lk"
 bot = telebot.TeleBot(TOKEN)
 
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
-	bot.send_message(message, "Скоро мы построим построим дом-треугольник!")
+	bot.reply_to(message, "Скоро мы построим построим дом-треугольник!")
 
+
+@bot.message_handler(commands=['checklist'])
+def send_welcome(message):
+	bot.reply_to(message, "Купи чек-лист, помоги Базалушке подняться!")
 
 
 @bot.message_handler(content_types=['text'])
