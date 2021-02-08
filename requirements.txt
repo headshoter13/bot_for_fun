@@ -11,7 +11,7 @@ defusedxml==0.5.0
 entrypoints==0.2.3
 ffmpeg==1.4
 html5lib==1.0.1
-httplib2==0.12.1
+httplib2==0.19.0
 idna==2.7
 imageio==2.1.2
 InstagramAPI==1.0.2
