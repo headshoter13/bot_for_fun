@@ -37,7 +37,7 @@ pandocfilters==1.4.2
 parso==0.3.1
 pickleshare==0.7.5
 Pillow==5.3.0
-pipenv==2018.11.26
+pipenv==2022.1.8
 prometheus-client==0.3.1
 prompt-toolkit==1.0.15
 Pygments==2.2.0
